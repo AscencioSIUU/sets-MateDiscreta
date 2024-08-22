@@ -47,14 +47,14 @@ def diferencia_simetrica(ConjuntoA, ConjuntoB):
     
     return diferencia_simetrica_resultado
 
-conjunto1 = ["A", "B", "C","1","2","3"]
-conjunto2 = ["A", "B", "C","4","5","6"]
+# conjunto1 = ["A", "B", "C","1","2","3"]
+# conjunto2 = ["A", "B", "C","4","5","6"]
 
-print(union(conjunto1,conjunto2))
-print(interseccion(conjunto1,conjunto2))
-print(complemento(conjunto1))
-print(diferencia(conjunto1,conjunto2))
-print(diferencia_simetrica(conjunto1,conjunto2))
+# print(union(conjunto1,conjunto2))
+# print(interseccion(conjunto1,conjunto2))
+# print(complemento(conjunto1))
+# print(diferencia(conjunto1,conjunto2))
+# print(diferencia_simetrica(conjunto1,conjunto2))
 
 #https://www.disfrutalasmatematicas.com/conjuntos/calculadora-conjuntos.html
 #https://calculadoradeconjuntos.site
