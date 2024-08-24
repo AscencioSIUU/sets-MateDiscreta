@@ -14,6 +14,7 @@ def universeValidator(array):
         else:
             # Mensaje de error
             print(f"Elemento no válido encontrado: {element}")
+            break
     return valid_elements
 
 
@@ -23,7 +24,7 @@ def ingresarConjunto(nombre_conjunto):
      # Verifica que el conjunto no esté vacío
     if not conjunto:
         print(f"El conjunto {nombre_conjunto} no puede estar vacío.")
-        return None
+
     
     conjunto = list(map(str.strip, conjunto.split(',')))  # Dividir por comas y eliminar espacios en blanco
     conjunto_validado = universeValidator(conjunto)

@@ -31,8 +31,13 @@ def menu():
         
         elif choice == '2':
             # Valida que se hayan ingresado los conjuntos
-            if conjuntoA is None or conjuntoB is None:
+            if conjuntoA is None or conjuntoB is None or conjuntoC is None:
                 print("Ingresa primero los conjuntos A y B.")
+                
+            if len(conjuntoA) == 0 or len(conjuntoB) == 0 or len(conjuntoC) == 0:
+                print("Ocurrio un error, uno de los conjuntos es vacio.")
+                print("Ingrese correctamente lo conjuntos.")
+                 
            # Realiza las diferentes opreaciones
             else:
                 print(f"Conjunto A: {conjuntoA}")
